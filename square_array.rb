@@ -14,5 +14,5 @@ array = [1,2,3]
 
 def square_array(array)
   new_array = []
-  array.collect
+  array.collect {|x| x ** 2}
 end
